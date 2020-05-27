@@ -1,0 +1,83 @@
+.first-form {
+  background-color: #cccccc;
+  border: 10px solid #0c5460;
+}
+
+.kss-contact-form-area .kss-input-box {
+  position: relative;
+}
+
+.kss-contact-form-area .kss-input-box input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #e3eeff;
+  line-height: 45px;
+}
+
+.kss-contact-form-area .kss-input-box input::placeholder {
+  opacity: 1;
+  color: #616161;
+  display: block;
+  text-transform: capitalize;
+}
+
+.kss-contact-form-area .kss-input-box select {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  border-bottom: 2px solid #e3eeff;
+  line-height: 45px;
+}
+
+.kss-contact-form-area .kss-input-box select::placeholder {
+  opacity: 1;
+  color: #616161;
+  display: block;
+  text-transform: capitalize;
+}
+
+
+.kss-contact-form-area .kss-input-box textarea {
+  width: 100%;
+  height: 90px;
+  border: 0;
+  border-bottom: 2px solid #e3eeff;
+  resize: none;
+}
+
+.kss-contact-form-area .kss-input-box textarea::placeholder {
+  opacity: 1;
+  color: #616161;
+  display: block;
+  text-transform: capitalize;
+}
+
+.kss-contact-form-area .kss-input-box button {
+  margin-top: 30px;
+  line-height: 60px;
+  padding: 0 40px;
+  font-size: 15px;
+  background: #0c59db;
+  color: #fff;
+  border-color: #0c59db;
+}
+
+.kss-contact-form-area .kss-input-box button i {
+  padding-left: 5px;
+}
+
+.kss-contact-form-area .kss-input-box>i {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  color: #0c59db;
+}
+
+table th {
+  background-color: #cccccc;
+}
+
+table td {
+  background-color: #c2c2c2;
+}
+

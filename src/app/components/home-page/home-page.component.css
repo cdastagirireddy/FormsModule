@@ -1,0 +1,101 @@
+.section {
+  background-image: url("../../../assets/img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  margin-top: 17px;
+  overflow-x:hidden;
+}
+h2{
+  font-size: 21px;
+  color: white;
+  margin-left: 22px;
+
+}
+* {
+  box-sizing: border-box;
+
+}
+
+.size {
+  height: 58px;
+  width: 58px;
+}
+.input {
+  position: absolute;
+  margin-left: 945px;
+  z-index: 1000000;
+}
+
+#more {
+  display: none;
+}
+
+.zoom {
+
+  transition: transform .2s;
+
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+
+
+}
+
+.size:hover {
+
+  transform: scale(1.5);
+}
+
+
+.rounded{
+
+  max-height: 50px;
+
+  position: fixed;
+  margin-top: 300px;
+  margin-left: 1258px;
+  border: 1px solid blue;
+  z-index: 44444;
+}
+button {
+  position: absolute;
+  z-index: 10000;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  transform: translate(0, 13px);
+}
+
+.containers {
+
+  width: 1107px;
+  margin-left: 127px;
+
+  box-shadow: 1px 1px 13px 4px black;
+  border-radius: 14px 14px 14px 14px;
+}
+
+.pd {
+  padding: 155px;
+}
+
+.nav-align {
+
+  margin-top: 1px;
+  position: absolute;
+  font-weight: bolder;
+  z-index: 2000;
+}
+.hide{
+  display: none;
+}
